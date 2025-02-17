@@ -1,4 +1,4 @@
-import Rectangle from "./Rectangle"; 
+import Square from "./Square"; 
 
 export default function Gato() {
 
@@ -9,7 +9,7 @@ export default function Gato() {
         <div className="grid grid-cols-3 gap-1">
             {cuadros.map((_, index) => {
                 const color = colores[index % 2];   
-                return <Rectangle key={index} color={color} />;})
+                return <Square key={index} color={color} />;})
             }
         </div>
     );
