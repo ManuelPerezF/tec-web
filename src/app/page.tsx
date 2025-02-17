@@ -16,13 +16,15 @@ export default function Home() {
         />
 
         <div className="min-h-screen flex flex-col items-center justify-center gap-4">
-          <Rectangle color="blue"/>
+          <Rectangle color='blue' />
           <Link href="/Page2" className="text-blue-700 hover:underline font-bold">
             Go to Page 2
           </Link>
-
-        
+          <Link href = "/page3" className = "text-green-700 hover:underline font-bold">
+            Go to Page 3
+          </Link>
         </div>
+        
         <div className = "flex itesm-center justify-center"> 
           <div className = "bg-blue-700 w-64 h-32 "></div>
         </div>
